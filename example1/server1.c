@@ -33,7 +33,7 @@ WSACleanup();
 return 0;
 }
 listen(serverSocket,10);
-printf("Server is ready to accept connection on poert 5050.\n");
+printf("Server is ready to accept connection on port 5050.\n");
 len=sizeof(clientSocketInformation);
 clientSocket=accept(serverSocket,(struct sockaddr *)&clientSocketInformation,&len);
 if(clientSocket<0)
