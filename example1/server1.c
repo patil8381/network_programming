@@ -57,7 +57,7 @@ printf("Response sent.\n");
 }
 else 
 {
-printf("unabel to send response\n");
+printf("unable to send response\n");
 }
 closesocket(serverSocket);
 closesocket(clientSocket);
